@@ -1,113 +1,63 @@
 # 📊 Data Analytics & Machine Learning Portfolio
 
-Hello,  
-I am a data analyst with hands-on experience in **data-driven problem solving using statistical analysis and machine learning models**.  
-This portfolio showcases projects focused on **exploratory data analysis, predictive modeling, and business-oriented insights**.
+This repository contains my end-to-end analytics and machine learning projects, covering **regression, classification, clustering, NLP, and time series forecasting**.  
+Each project includes modeling, evaluation, and business-oriented interpretation.
 
 ---
 
-## 🔍 Core Skills
-
-- **Programming:** Python (Pandas, NumPy, Scikit-learn)
-- **Machine Learning:** Regression, Classification, Clustering, Time Series
-- **Data Analysis:** EDA, Feature Engineering, Model Evaluation
-- **Visualization:** Matplotlib, Seaborn
-- **Tools:** Jupyter Notebook, Git/GitHub
-- **Concepts:** PCA, Model Tuning, Bias–Variance Tradeoff
-
----
-
-## 📁 Projects Overview
-
-### 1️⃣ Sales Forecasting – Linear Regression  
-📄 `Estimate for yearly sales (Linear Regression).ipynb`
-
-- Built a **linear regression model** to estimate yearly sales
-- Analyzed relationships between features and revenue
-- Interpreted coefficients to extract **business-relevant insights**
-
-**Skills:** Linear Regression, EDA, Model Interpretation
+## 🧰 Core Skills Used Across Projects
+- **Python:** Pandas, NumPy
+- **Machine Learning:** Scikit-learn (Regression, Classification, Clustering)
+- **Evaluation:** RMSE/MSE, Accuracy, Confusion Matrix, Classification Report, Silhouette Score
+- **Visualization:** Matplotlib / Seaborn
+- **Time Series:** Prophet
+- **NLP:** Text preprocessing, word frequency analysis, WordCloud
+- **Data Wrangling:** Cleaning, feature engineering, JSON flattening
 
 ---
 
-### 2️⃣ Advertisement Effectiveness Analysis – Logistic Regression  
-📄 `AdAnalysis_Logistic Regression.ipynb`
+## 📁 Projects (1–9)
 
-- Predicted **customer purchase probability** based on ad exposure
-- Implemented logistic regression for binary classification
-- Evaluated performance using precision, recall, and confusion matrix
+### 1) Sales Forecasting — Linear Regression  
+Built a baseline model to estimate yearly sales and quantify prediction error.  
+**Skills:** Linear Regression, EDA, RMSE/MSE, Visualization
 
-**Skills:** Classification, Logistic Regression, Model Evaluation
+### 2) Ad Effectiveness — Logistic Regression  
+Predicted conversion probability and interpreted results using the confusion matrix.  
+**Skills:** Logistic Regression, Classification Metrics, Confusion Matrix
 
----
+### 3) Classification — K-Nearest Neighbors (KNN)  
+Implemented KNN classification and evaluated performance on a test set.  
+**Skills:** KNN, Feature scaling concepts, Accuracy, Confusion Matrix
 
-### 3️⃣ Customer Segmentation – K-Means Clustering  
-📄  
-- `Customer_KMeans_1.ipynb`  
-- `Customer_KMeans_PCA.ipynb`
+### 4) Purchase Prediction — Decision Tree  
+Modeled purchase decisions with an interpretable tree-based classifier.  
+**Skills:** Decision Trees, Feature Importance, Confusion Matrix
 
-- Performed **customer segmentation using unsupervised learning**
-- Applied PCA for dimensionality reduction and visualization
-- Interpreted clusters for **marketing and customer strategy use cases**
+### 5) Promotion Outcome Forecast — Random Forest  
+Used an ensemble model to predict promotion outcomes and analyzed minority-class performance.  
+**Skills:** Random Forest, Imbalanced Classification Analysis, Feature Importance
 
-**Skills:** K-Means, PCA, Unsupervised Learning
+### 6) Customer Segmentation — K-Means + PCA  
+Clustered customers and visualized segments using dimensionality reduction.  
+**Skills:** K-Means, PCA, Silhouette Score, Cluster Visualization
 
----
+### 7) Mall Sales Forecasting — Time Series (Prophet)  
+Forecasted sales trends and seasonality using time series modeling.  
+**Skills:** Time Series, Prophet, Trend/Seasonality Interpretation
 
-### 4️⃣ Purchase Decision Prediction – Decision Tree  
-📄 `Purchasing_Decision Tree.ipynb`
+### 8) Product Review Analysis — NLP (Part 1)  
+Explored review text to identify themes in positive vs negative feedback.  
+**Skills:** Text Cleaning, Word Frequency, WordCloud, Exploratory NLP
 
-- Modeled customer purchasing behavior using decision trees
-- Visualized decision paths for interpretability
-- Highlighted key features influencing purchasing decisions
-
-**Skills:** Decision Tree, Feature Importance, Model Interpretability
-
----
-
-### 5️⃣ Promotion Impact Forecasting – Random Forest  
-📄 `PromotionForecast_Random Forest.ipynb`
-
-- Built a random forest model to forecast promotion outcomes
-- Compared ensemble performance against single-tree models
-- Reduced overfitting and improved prediction stability
-
-**Skills:** Random Forest, Ensemble Learning, Model Tuning
+### 9) Web Analytics Data Wrangling — JSON Flattening  
+Transformed nested JSON-style analytics fields into structured tabular data and analyzed revenue distributions.  
+**Skills:** Data Cleaning, JSON Flattening, Distribution Analysis, Log Transform
 
 ---
 
-### 6️⃣ Product Review Analysis – Natural Language Processing (NLP)  
-📄 `ProductReview_NLP - Part 1.ipynb`
-
-- Conducted text preprocessing and sentiment exploration
-- Analyzed customer reviews to extract qualitative insights
-- Prepared textual data for downstream modeling tasks
-
-**Skills:** NLP, Text Preprocessing, Sentiment Analysis
-
----
-
-### 7️⃣ Mall Sales Forecasting – Time Series Analysis  
-📄 `MallSaleForeca_Time Series.ipynb`
-
-- Analyzed historical sales trends using time series techniques
-- Identified seasonality and trend components
-- Generated forecasts to support business planning
-
-**Skills:** Time Series Analysis, Trend & Seasonality, Forecasting
-
----
-
-## 🎯 What This Portfolio Demonstrates
-
-- Ability to translate raw data into actionable insights
-- Strong understanding of machine learning fundamentals
-- Emphasis on **interpretability and business relevance**
-- End-to-end analytical workflow from data exploration to modeling
-
----
-
-📫 **Contact**  
-If you would like to discuss my projects or experience, feel free to reach out via GitHub.
-
-Thank you for reviewing my portfolio.
+## 📌 Notes
+Each project folder contains:
+- `README.md` (project summary and key takeaways)
+- Jupyter notebook (`.ipynb`)
+- `images/` (key charts used in README)
